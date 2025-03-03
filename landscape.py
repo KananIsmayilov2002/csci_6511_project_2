@@ -3,7 +3,7 @@ import numpy as np
 
 
 def count_non_zeros(landscape, startX, startY):
-    """Counts non zero elements within the given area. This is used in LCV function."""
+    """Counts non zero elements within the given area."""
     non_zero_colors = 0
 
     for i in range(startX, startX + config.TILE_SIZE):
